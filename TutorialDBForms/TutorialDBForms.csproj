@@ -47,80 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AppDataSet.cs" />
-    <Compile Include="BinBoxForm.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BinBoxForm.Designer.cs">
-      <DependentUpon>BinBoxForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DokBox.cs" />
-    <Compile Include="NaczBoxCreateForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="NaczBoxCreateForm.Designer.cs">
-      <DependentUpon>NaczBoxCreateForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PojBoxCreateForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PojBoxCreateForm.Designer.cs">
-      <DependentUpon>PojBoxCreateForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="KonBoxCreateForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="KonBoxCreateForm.Designer.cs">
-      <DependentUpon>KonBoxCreateForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="KonBoxForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="KonBoxForm.Designer.cs">
-      <DependentUpon>KonBoxForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="KonBoxFilterForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="KonBoxFilterForm.Designer.cs">
-      <DependentUpon>KonBoxFilterForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="KierBoxCreateForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="KierBoxCreateForm.Designer.cs">
-      <DependentUpon>KierBoxCreateForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="mssDBDataSet.cs">
-      <DependentUpon>mssDBDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="ZiarBoxCreateForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ZiarBoxCreateForm.Designer.cs">
-      <DependentUpon>ZiarBoxCreateForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DokBoxFilterForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DokBoxFilterForm.Designer.cs">
-      <DependentUpon>DokBoxFilterForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MenuForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MenuForm.Designer.cs">
-      <DependentUpon>MenuForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DokBoxForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DokBoxForm.Designer.cs">
-      <DependentUpon>DokBoxForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DokBoxCreateForm.cs" />
-    <Compile Include="DokBoxCreateForm.Designer.cs">
-      <DependentUpon>DokBoxCreateForm.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="mssDBDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -129,41 +60,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="BinBoxForm.resx">
-      <DependentUpon>BinBoxForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="NaczBoxCreateForm.resx">
-      <DependentUpon>NaczBoxCreateForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PojBoxCreateForm.resx">
-      <DependentUpon>PojBoxCreateForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="KonBoxCreateForm.resx">
-      <DependentUpon>KonBoxCreateForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="KonBoxForm.resx">
-      <DependentUpon>KonBoxForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="KonBoxFilterForm.resx">
-      <DependentUpon>KonBoxFilterForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="KierBoxCreateForm.resx">
-      <DependentUpon>KierBoxCreateForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ZiarBoxCreateForm.resx">
-      <DependentUpon>ZiarBoxCreateForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DokBoxFilterForm.resx">
-      <DependentUpon>DokBoxFilterForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MenuForm.resx">
-      <DependentUpon>MenuForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DokBoxForm.resx">
-      <DependentUpon>DokBoxForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DokBoxCreateForm.resx">
-      <DependentUpon>DokBoxCreateForm.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
