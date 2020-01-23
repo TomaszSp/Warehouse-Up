@@ -15,16 +15,17 @@ namespace TutorialDBForms
     {
         public static DataSet filteredDataSet = new DataSet();
 
-        public KonBoxFilterForm()
+        public KonBoxFilterForm(DataSet ds)
         {
             InitializeComponent();
+            AppDataSet.setData("konbox");
+            filteredDataSet = ds;
         }
 
         public static void KonBoxFilterShow(DataSet ds)
         {
-            KonBoxFilterForm dialog = new KonBoxFilterForm();
+            KonBoxFilterForm dialog = new KonBoxFilterForm(ds);
             dialog.ShowDialog();
-            filteredDataSet = ds;
         }
 
         private void button1_Click(object sender, EventArgs e)

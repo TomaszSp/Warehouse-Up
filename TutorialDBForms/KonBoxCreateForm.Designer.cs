@@ -152,7 +152,7 @@
             this.Controls.Add(this.splitter1);
             this.Controls.Add(this.panel1);
             this.Name = "KonBoxCreateForm";
-            this.Text = "Nowy kierowca";
+            this.Text = "Nowy kontrahent";
             this.Load += new System.EventHandler(this.KonBoxCreateForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.mssDBDataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mssDBDataSet)).EndInit();

@@ -491,7 +491,7 @@
             this.Controls.Add(this.splitter1);
             this.Controls.Add(this.panel1);
             this.Name = "DokBoxCreateForm";
-            this.Text = "Nowy kierowca";
+            this.Text = "Nowy dokument";
             this.Load += new System.EventHandler(this.DokBoxCreateForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.mssDBDataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mssDBDataSet)).EndInit();
